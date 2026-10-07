@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  app:
+    build: .
+    container_name: medical-rag-bot
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+      - ./chroma_db:/app/chroma_db
+    restart: unless-stopped

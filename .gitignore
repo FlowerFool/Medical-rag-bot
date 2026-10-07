@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+
+# Env / secrets
+.env
+
+# ChromaDB
+chroma_db/
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (большие PDF)
+data/*.pdf
+!data/sample_meddoc.pdf
+
+# Screenshots (оставим, они нужны в README)
+# screenshots/ - не игнорируем
+
+# Jupyter
+.ipynb_checkpoints/

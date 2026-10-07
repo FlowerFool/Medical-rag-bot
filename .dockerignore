@@ -1,0 +1,12 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.git/
+.gitignore
+.env
+chroma_db/
+screenshots/
+.vscode/
+.ipynb_checkpoints/
+*.md
